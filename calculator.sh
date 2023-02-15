@@ -5,7 +5,7 @@ read A
 echo "Enter the value of B"
 read B
 
-((sum=A+B))
+((sum=c-b))
 ((sub=A-B))
 ((mul=A*B))
 div=$(bc<<< "scale=3;$B/$A")
@@ -15,4 +15,4 @@ echo "THE SUBSTARCTION OF A AND B IS : $sub"
 echo "THE MULTIPLICATON OF A AND B IS : $mul"
 echo "THE DIVISION OF B AND A IS : $div"
 
-
+this abziKJ
